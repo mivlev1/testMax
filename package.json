@@ -8,11 +8,8 @@
     "authors": "author",
     "version": "1.0.0",
     "main": "pathToMain",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "homepage": "https://mivlev1.github.io/testMax",
-  "devDependencies": {
-    "gh-pages": "^2.0.1"
-  }
 }
